@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chivo+Mono:wght@100&family=Lobster&family=Lobster+Two:ital@0;1&family=Prosto+One&display=swap");
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body {
+  background-color: rgb(216, 236, 254);
+}
+h1 {
+  font-family: lobster;
+  border: solid 0px lightblue;
+  transition: 0.5s ease-in 0.5s;
+}
+h1:hover {
+  background-color: rgb(214, 243, 255);
+  border: solid 0px rgb(53, 188, 255);
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  opacity: 1;
+}
+h2 {
+  text-align: center;
+  font-family: "chivo mono";
+  font-size: 15px;
+}
+
+fieldset {
+  background-color: rgb(216, 236, 254);
+  transition: 0.1s ease-in 0.1s;
+}
+fieldset:hover {
+  background-color: rgb(170, 215, 255);
+}
+button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border: solid 0px black;
+  border-radius: 100px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 30px;
+  background-color: rgb(216, 236, 254);
+}
+a:visited {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
